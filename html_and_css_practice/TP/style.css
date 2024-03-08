@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Noto Sans", sans-serif;
     margin: 0em;
 }
 .cover {
@@ -11,6 +11,11 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: darken;
 }
+/* darle propiedad a las fotos de las card para que encajen de forma simetrica entre sí */
+.cover-small{
+    height: 250px;
+    background-blend-mode: normal;
+}
 
 /* agregar sombra a la tarjeta */
 .card {
@@ -18,3 +23,34 @@ body {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.8);
 
 }
+
+.card-title,h1,h2,h3,h4,h5{
+    min-height: 3rem;
+    text-align: center;
+    font-style:italic;
+    font-weight: bold;
+}
+
+.card-text{
+    min-height: 5rem;
+    text-align:justify;
+}
+
+.product-stripe{
+    display: flex;
+    justify-content:space-evenly;
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;    
+}
+
+.stripe-container{
+    display:flex;
+}
+
+.stripe-container .card{
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+

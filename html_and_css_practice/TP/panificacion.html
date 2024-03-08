@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid"  style="background-color: coral;">
+      <a class="navbar-brand" href="#">LOGO</a>
+
+            <ul class="nav" style="--bs-nav-link-color: #303503; font-size: larger; font-family: cursive;">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Acerca de</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Precios</a>
+                </li>
+              </ul>
+    </nav>
+    <div class="cover d-flex justify-content-center align-items-center flex-column">
+        <h1>
+            A los churrrrrrroooss
+        </h1>
+        <p>
+            Unas ganas de comer churritos que ni se imaginan!!!
+        </p>
+        <button class="btn btn-secondary" style="--bs-btn-color: #ffc107;">
+            Buy me a Churro
+        </button>
+    </div>
+    <!-- Aqui empiezan las tarjetas --> 
+    <section>
+      <div class="container mt-4 mb-4">
+        <div class="row justify-content-center">
+         
+          <div class="col-auto mt-4">
+            <div class="card" style="width: 18rem;">
+              <div class="cover cover-small" style="background-image: url(assets/gluten.jpg);" title="Una mesa con productos sin gluten">
+              </div> 
+               <div class="card-body">
+                  <h5 class="card-title">Para todas las necesidades</h5>
+                  <p class="card-text">Nos preocupamos por abarcar todos los gustos y necesisades posibles, por eso contamos con productos aptos para celiacos.</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-auto mt-4">
+            <div class="card" style="width: 18rem;">
+              <div class="cover cover-small" style="background-image: url(assets/takeaway.jpg);" title="Un letretro que dice Take Away">
+              </div> 
+                <div class="card-body">
+                  <h5 class="card-title">Servicio TakeAway</h5>
+                  <p class="card-text">Pasa a llevarte tu snak durante tu break.</p>
+                    <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-primary">Sucursales</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-auto mt-4">
+            <div class="card" style="width: 18rem;">
+              <div class="cover cover-small" style="background-image: url(assets/masa1.jpg);" title="Una persona moldeando la masa sobre una mesa">
+              </div> 
+                <div class="card-body">
+                  <h5 class="card-title">Fabricacion de calidad</h5>
+                  <p class="card-text">Nuestras panificaciones son las mejores porque yolo.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <!-- Seccion de contacto/correo --> 
+    <section>
+      <div class="container">
+        <div class="row" style="margin-top: 10px; margin-bottom: 20px; align-items: center;">
+          <div class="col-auto col-lg-6">
+           <img src="assets/contacto.svg" alt="Una persona dibujada haciendo una llamada por telefono" width="100%" style="max-width: 600px; height: auto;"/> 
+          </div>
+          <div class="col-auto  col-lg-6">
+            <h2>¡Ponte en contacto con nosotros para resolver dudas acerca de tus pedidos!</h2>
+          </div>
+        </div>
+        <form action="">
+          <label for="email">Correo electrónico</label>
+          <div class="d-flex">
+            <div class="flex-fill" style="margin-right: 1rem;">
+              <input type="email" id="email" class="form-control"/>
+            </div>
+            <button type="submit" class="btn btn-secondary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section> 
+    <section>
+    <!-- Tira de productos -->
+      <div class="container mt-4 mb-4">
+        <div class="product-stripe">
+          <div class="stripe-container">
+            <div class="card" style="width: 18rem;">
+              <div class="cover cover-small" style="background-image: url(assets/muffins.jpg);" title="Unos muffins sobre una mesa">
+              </div> 
+                <div class="card-body d-flex justify-content-center align-items-center flex-column">
+                  <h5 class="card-title">Muffins gourmet</h5>
+                  <span class="badge text-bg-warning">$800 c/u</span>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="cover cover-small" style="background-image: url(assets/torta.jpg);" title="Una torta con crema pastelera sobre una mesa">
+                </div> 
+                  <div class="card-body d-flex justify-content-center align-items-center flex-column">
+                    <h5 class="card-title">Tiramisú para 8 personas</h5>
+                    <span class="badge text-bg-warning">$10.000</span>
+                  </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="cover cover-small" style="background-image: url(assets/medialunas.jpg);" title="Se ven unas medialunas puestas sobre una bandeja">
+                </div> 
+                  <div class="card-body d-flex justify-content-center align-items-center flex-column">
+                    <h5 class="card-title">Medialunas saladas/dulces</h5>
+                    <span class="badge text-bg-warning">$3.000 la docena</span>
+                  </div>
+            </div>    
+          </div>
+        </div>
+      </div>
+    </section>
+    </header>
+</body>
+<!-- <div class="d-flex justify-content-center">
+                    <a href="#email" class="btn btn-primary">Contacto</a> 
+                  </div> -->
+
+
