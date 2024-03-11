@@ -49,6 +49,7 @@ body {
 
 .slider-container{
     transform: translateX(0);
+    animation: slider 12s infinite;
 }
 
 .stripe-container, .slider-container{
@@ -79,4 +80,50 @@ body {
     background-position: center;
     background-size:cover;
     flex-shrink: 0;
+}
+
+.avatar{
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    margin:0 auto ;
+}
+
+/* Animacion del slider de la pagina acercade.html */
+@keyframes slider{
+    0% {
+        transform: translateX(0);
+    }
+    15%{
+        transform: translateX(0);
+    }
+    18%{
+        transform: translateX(-100%);
+    }
+    35%{
+        transform: translateX(-100%);
+    }
+    38%{
+        transform: translateX(-200%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    58%{
+        transform: translateX(-300%);
+    }
+    75%{
+        transform: translateX(-300%);
+    }
+    78%{
+        transform: translateX(-400%);
+    }
+    95%{
+        transform: translateX(-400%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+
 }
