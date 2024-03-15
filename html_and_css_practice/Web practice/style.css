@@ -82,6 +82,11 @@ body {
     flex-shrink: 0;
 }
 
+.paises>.pais{
+    max-width: 250px;
+    min-width: 220px;
+}
+
 .avatar{
     width: 120px;
     height: 120px;
